@@ -1,0 +1,239 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "brand": "Mercedes-Benz",
+        "model": "S-Class",
+        "year": 2024,
+        "price": 12000000,
+        "engine": "3.0L V6",
+        "horsepower": 367,
+        "fuel_consumption": 9.2,
+        "acceleration": 5.2,
+        "max_speed": 250,
+        "transmission": "Automatic",
+        "drive": "4MATIC",
+        "color": "Black",
+        "interior": "Nappa Leather",
+        "description": "Флагманский седан Mercedes-Benz S-Class представляет собой вершину автомобильной роскоши и технологий. Оснащен интеллектуальной подвеской E-Active Body Control и системой полуавтономного вождения Drive Pilot.",
+        "features": [
+          "MBUX Entertainment System",
+          "Burmester 3D Sound",
+          "Massage Seats",
+          "Night Vision",
+          "Air Balance"
+        ],
+        "images": [
+          "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg",
+          "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg",
+          "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg"
+        ],
+        "in_stock": true
+      },
+      {
+        "id": 2,
+        "brand": "BMW",
+        "model": "7 Series",
+        "year": 2024,
+        "price": 11500000,
+        "engine": "4.4L V8",
+        "horsepower": 380,
+        "fuel_consumption": 8.8,
+        "acceleration": 4.8,
+        "max_speed": 250,
+        "transmission": "Automatic",
+        "drive": "xDrive",
+        "color": "Alpine White",
+        "interior": "Merino Leather",
+        "description": "Новый BMW 7 Series сочетает в себе исключительную динамику и непревзойденный комфорт. Задние сиденья с функцией массажа и 31-дюймовый театральный экран создают атмосферу бизнес-джета.",
+        "features": [
+          "BMW Theatre Screen",
+          "Bowers & Wilkins Sound",
+          "Executive Lounge",
+          "Sky Lounge Roof",
+          "Parking Assistant"
+        ],
+        "images": [
+          "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+          "https://images.unsplash.com/photo-1556189250-72ba954cfc2b",
+          "https://images.unsplash.com/photo-1555215695-3e6f9c7e5a1d"
+        ],
+        "in_stock": true
+      },
+      {
+        "id": 3,
+        "brand": "Audi",
+        "model": "A8",
+        "year": 2024,
+        "price": 10800000,
+        "engine": "3.0L V6",
+        "horsepower": 340,
+        "fuel_consumption": 8.5,
+        "acceleration": 5.6,
+        "max_speed": 250,
+        "transmission": "Automatic",
+        "drive": "quattro",
+        "color": "Daytona Grey",
+        "interior": "Valcona Leather",
+        "description": "Audi A8 L — это воплощение прогрессивной роскоши. Инновационная подвеска с электромеханическим приводом и полностью цифровой салон с тремя экранами задают новые стандарты в премиум-классе.",
+        "features": [
+          "MMI Touch Response",
+          "Bang & Olufsen Sound",
+          "Rear Seat Relaxation",
+          "HD Matrix LED",
+          "Audi AI Remote"
+        ],
+        "images": [
+          "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg",
+          "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg",
+          "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg"
+        ],
+        "in_stock": true
+      },
+      {
+        "id": 4,
+        "brand": "Porsche",
+        "model": "Panamera",
+        "year": 2024,
+        "price": 13500000,
+        "engine": "4.0L V8",
+        "horsepower": 620,
+        "fuel_consumption": 11.2,
+        "acceleration": 3.2,
+        "max_speed": 315,
+        "transmission": "Automatic",
+        "drive": "PDK",
+        "color": "GT Silver",
+        "interior": "Leather",
+        "description": "Porsche Panamera Turbo объединяет в себе спортивный характер и роскошь бизнес-седана. Мощный двигатель V8 с двойным турбонаддувом обеспечивает невероятную динамику.",
+        "features": [
+          "Porsche Communication",
+          "Burmester Sound",
+          "Sport Chrono",
+          "Ceramic Brakes",
+          "Rear-axle Steering"
+        ],
+        "images": [
+          "https://images.unsplash.com/photo-1580274455191-1c62238fa333",
+          "https://images.unsplash.com/photo-1580274455191-53a6c8b8b5b9",
+          "https://images.unsplash.com/photo-1580274455191-1c62238fa334"
+        ],
+        "in_stock": true
+      },
+      {
+        "id": 5,
+        "brand": "Lexus",
+        "model": "LS",
+        "year": 2024,
+        "price": 9800000,
+        "engine": "3.5L V6",
+        "horsepower": 416,
+        "fuel_consumption": 9.0,
+        "acceleration": 5.0,
+        "max_speed": 250,
+        "transmission": "Automatic",
+        "drive": "AWD",
+        "color": "Sonic White",
+        "interior": "Semi-aniline",
+        "description": "Lexus LS воплощает японское гостеприимство и внимание к деталям. Уникальная отделка салона и пневматическая подвеска создают атмосферу абсолютного спокойствия и комфорта.",
+        "features": [
+          "Mark Levinson Sound",
+          "Ottoman Seats",
+          "Climate Concierge",
+          "Panoramic View",
+          "Advanced Safety"
+        ],
+        "images": [
+          "https://i.pinimg.com/736x/3c/bb/5e/3cbb5eed079e172fb9f0131ca0ee9014.jpg",
+          "https://i.pinimg.com/736x/3c/bb/5e/3cbb5eed079e172fb9f0131ca0ee9014.jpg",
+          "https://i.pinimg.com/736x/3c/bb/5e/3cbb5eed079e172fb9f0131ca0ee9014.jpg"
+        ],
+        "in_stock": false
+      },
+      {
+        "id": 6,
+        "brand": "Bentley",
+        "model": "Flying Spur",
+        "year": 2024,
+        "price": 22000000,
+        "engine": "6.0L W12",
+        "horsepower": 635,
+        "fuel_consumption": 14.5,
+        "acceleration": 3.7,
+        "max_speed": 333,
+        "transmission": "Automatic",
+        "drive": "AWD",
+        "color": "Magnetic",
+        "interior": "Diamond Quilt",
+        "description": "Bentley Flying Spur — это британская роскошь в сочетании с феноменальной производительностью. Ручная работа над каждым автомобилем занимает более 100 часов.",
+        "features": [
+          "Naim Sound System",
+          "Mulliner Driving",
+          "Rotating Display",
+          "Airline Seats",
+          "Bentley Signature"
+        ],
+        "images": [
+          "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg",
+          "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg",
+          "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg"
+        ],
+        "in_stock": true
+      }
+    ],
+    "promotions": [
+      {
+        "id": 1,
+        "title": "Trade-in с выгодой до 500 000 ₽",
+        "description": "Обменяйте свой старый автомобиль на новый с максимальной выгодой. Оценка за 1 час.",
+        "image": "https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0",
+        "valid_until": "2024-12-31"
+      },
+      {
+        "id": 2,
+        "title": "Кредит 0.1% на премиум авто",
+        "description": "Специальное предложение от банков-партнеров. Первоначальный взнос от 10%.",
+        "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d0",
+        "valid_until": "2024-10-31"
+      },
+      {
+        "id": 3,
+        "title": "Страховка КАСКО в подарок",
+        "description": "При покупке любого автомобиля из наличия - годовая страховка в подарок.",
+        "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+        "valid_until": "2024-09-30"
+      }
+    ],
+    "blog": [
+      {
+        "id": 1,
+        "title": "Топ-5 новых технологий в премиум авто 2024",
+        "excerpt": "Искусственный интеллект, автопилоты и голографические дисплеи — что уже доступно сегодня?",
+        "content": "Полный текст статьи о новых технологиях...",
+        "author": "Александр Петров",
+        "date": "2024-08-15",
+        "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+        "read_time": 5
+      },
+      {
+        "id": 2,
+        "title": "Как выбрать идеальный седан бизнес-класса",
+        "excerpt": "Сравнение Mercedes E-Class, BMW 5 Series и Audi A6: что выбрать в 2024?",
+        "content": "Полный текст статьи о выборе седана...",
+        "author": "Елена Соколова",
+        "date": "2024-08-10",
+        "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db3",
+        "read_time": 8
+      },
+      {
+        "id": 3,
+        "title": "Электромобили премиум-класса: стоит ли переходить?",
+        "excerpt": "Porsche Taycan, Mercedes EQS и BMW i7 в реальных условиях эксплуатации.",
+        "content": "Полный текст статьи об электромобилях...",
+        "author": "Михаил Иванов",
+        "date": "2024-08-05",
+        "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db4",
+        "read_time": 6
+      }
+    ]
+  }

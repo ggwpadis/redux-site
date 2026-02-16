@@ -1,0 +1,205 @@
+/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #0a0a0a 0%, #1a1a1a 100%);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Логотип */
+.logo a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.logo-grand {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.logo-motors {
+  color: #FFD700;
+  font-weight: 700;
+  margin-left: 2px;
+}
+
+.logo a:hover {
+  transform: scale(1.05);
+}
+
+/* Навигационное меню */
+.nav-menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 0;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFD700;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+/* Кнопка тест-драйва */
+.btn-test-drive {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #0a0a0a;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 215, 0, 0.5);
+  white-space: nowrap;
+}
+
+.btn-test-drive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
+  background: linear-gradient(135deg, #FFA500 0%, #FFD700 100%);
+}
+
+/* Мобильное меню (скрыто по умолчанию) */
+.btn-menu-mobile {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger-icon {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: #FFD700;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon::before,
+.hamburger-icon::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background: #FFD700;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon::before {
+  transform: translateY(-8px);
+}
+
+.hamburger-icon::after {
+  transform: translateY(8px);
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1024px) {
+  .nav-list {
+    gap: 15px;
+  }
+  
+  .nav-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  
+  .btn-test-drive {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  
+  .btn-menu-mobile {
+    display: block;
+  }
+  
+  .logo a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0 15px;
+  }
+  
+  .btn-test-drive {
+    display: none;
+  }
+}

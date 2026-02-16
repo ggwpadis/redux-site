@@ -1,0 +1,99 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Шапка */
+.header {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.logo {
+  color: #22c55e;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav a {
+  color: #ffffff;
+  margin: 0 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #22c55e;
+}
+
+.btn {
+  background: #22c55e;
+  color: black;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #16a34a;
+}
+
+/* Баннер */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('../assets/car-banner.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.hero-content p {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #d1d5db;
+}
+
+.btn-hero {
+  background: #22c55e;
+  color: black;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-hero:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
