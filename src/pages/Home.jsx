@@ -129,7 +129,7 @@ const HomePage = () => {
         {/* Секция с акциями (второй контент) */}
         <section className="promotions-section">
           <div className="container">
-            <h2 className="section-title">Специальные предложения</h2>
+            <h2 className="section-title">Специальные</h2>
             
             {loadingPromo ? (
               <LoadingSpinner />
@@ -321,7 +321,7 @@ const HomePage = () => {
         </section>
       </main>
 
-      <Footer />
+
     </div>
   );
 };

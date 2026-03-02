@@ -9,9 +9,10 @@ const Header = () => {
     { name: 'Акции', path: '/offers' },
     { name: 'О нас', path: '/about' },
     { name: 'Блог', path: '/blog' },
-    { name: 'Контакты', path: '/contacts' }
+    { name: 'Контакты', path: '/contacts' },
   ];
 
+  
   return (
     <header className="header">
       <div className="header-container">

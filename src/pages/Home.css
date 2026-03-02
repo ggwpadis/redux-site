@@ -7,7 +7,7 @@
   
   .main-content {
     flex: 1;
-    margin-top: 80px; /* Высота header */
+    /* Высота header */
   }
   
   /* Hero секция */
@@ -342,10 +342,11 @@
 
 .promotions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   margin-top: 40px;
 }
+
 
 .promo-card {
   background: white;
@@ -361,7 +362,7 @@
 }
 
 .promo-image {
-  height: 200px;
+  height: 220px;
   overflow: hidden;
 }
 
@@ -371,6 +372,9 @@
   object-fit: cover;
   transition: transform 0.5s ease;
 }
+
+
+
 
 .promo-card:hover .promo-image img {
   transform: scale(1.1);
