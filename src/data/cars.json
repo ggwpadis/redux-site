@@ -1,239 +1,544 @@
 {
-    "cars": [
-      {
-        "id": 1,
-        "brand": "Mercedes-Benz",
-        "model": "S-Class",
-        "year": 2024,
-        "price": 12000000,
-        "engine": "3.0L V6",
-        "horsepower": 367,
-        "fuel_consumption": 9.2,
-        "acceleration": 5.2,
-        "max_speed": 250,
-        "transmission": "Automatic",
-        "drive": "4MATIC",
-        "color": "Black",
-        "interior": "Nappa Leather",
-        "description": "Флагманский седан Mercedes-Benz S-Class представляет собой вершину автомобильной роскоши и технологий. Оснащен интеллектуальной подвеской E-Active Body Control и системой полуавтономного вождения Drive Pilot.",
-        "features": [
-          "MBUX Entertainment System",
-          "Burmester 3D Sound",
-          "Massage Seats",
-          "Night Vision",
-          "Air Balance"
-        ],
-        "images": [
-          "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg",
-          "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg",
-          "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg"
-        ],
-        "in_stock": true
-      },
-      {
-        "id": 2,
-        "brand": "BMW",
-        "model": "7 Series",
-        "year": 2024,
-        "price": 11500000,
-        "engine": "4.4L V8",
-        "horsepower": 380,
-        "fuel_consumption": 8.8,
-        "acceleration": 4.8,
-        "max_speed": 250,
-        "transmission": "Automatic",
-        "drive": "xDrive",
-        "color": "Alpine White",
-        "interior": "Merino Leather",
-        "description": "Новый BMW 7 Series сочетает в себе исключительную динамику и непревзойденный комфорт. Задние сиденья с функцией массажа и 31-дюймовый театральный экран создают атмосферу бизнес-джета.",
-        "features": [
-          "BMW Theatre Screen",
-          "Bowers & Wilkins Sound",
-          "Executive Lounge",
-          "Sky Lounge Roof",
-          "Parking Assistant"
-        ],
-        "images": [
-          "https://images.unsplash.com/photo-1555215695-3004980ad54e",
-          "https://images.unsplash.com/photo-1556189250-72ba954cfc2b",
-          "https://images.unsplash.com/photo-1555215695-3e6f9c7e5a1d"
-        ],
-        "in_stock": true
-      },
-      {
-        "id": 3,
-        "brand": "Audi",
-        "model": "A8",
-        "year": 2024,
-        "price": 10800000,
-        "engine": "3.0L V6",
-        "horsepower": 340,
-        "fuel_consumption": 8.5,
-        "acceleration": 5.6,
-        "max_speed": 250,
-        "transmission": "Automatic",
-        "drive": "quattro",
-        "color": "Daytona Grey",
-        "interior": "Valcona Leather",
-        "description": "Audi A8 L — это воплощение прогрессивной роскоши. Инновационная подвеска с электромеханическим приводом и полностью цифровой салон с тремя экранами задают новые стандарты в премиум-классе.",
-        "features": [
-          "MMI Touch Response",
-          "Bang & Olufsen Sound",
-          "Rear Seat Relaxation",
-          "HD Matrix LED",
-          "Audi AI Remote"
-        ],
-        "images": [
-          "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg",
-          "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg",
-          "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg"
-        ],
-        "in_stock": true
-      },
-      {
-        "id": 4,
-        "brand": "Porsche",
-        "model": "Panamera",
-        "year": 2024,
-        "price": 13500000,
-        "engine": "4.0L V8",
-        "horsepower": 620,
-        "fuel_consumption": 11.2,
-        "acceleration": 3.2,
-        "max_speed": 315,
-        "transmission": "Automatic",
-        "drive": "PDK",
-        "color": "GT Silver",
-        "interior": "Leather",
-        "description": "Porsche Panamera Turbo объединяет в себе спортивный характер и роскошь бизнес-седана. Мощный двигатель V8 с двойным турбонаддувом обеспечивает невероятную динамику.",
-        "features": [
-          "Porsche Communication",
-          "Burmester Sound",
-          "Sport Chrono",
-          "Ceramic Brakes",
-          "Rear-axle Steering"
-        ],
-        "images": [
-          "https://images.unsplash.com/photo-1580274455191-1c62238fa333",
-          "https://images.unsplash.com/photo-1580274455191-53a6c8b8b5b9",
-          "https://images.unsplash.com/photo-1580274455191-1c62238fa334"
-        ],
-        "in_stock": true
-      },
-      {
-        "id": 5,
-        "brand": "Lexus",
-        "model": "LS",
-        "year": 2024,
-        "price": 9800000,
-        "engine": "3.5L V6",
-        "horsepower": 416,
-        "fuel_consumption": 9.0,
-        "acceleration": 5.0,
-        "max_speed": 250,
-        "transmission": "Automatic",
-        "drive": "AWD",
-        "color": "Sonic White",
-        "interior": "Semi-aniline",
-        "description": "Lexus LS воплощает японское гостеприимство и внимание к деталям. Уникальная отделка салона и пневматическая подвеска создают атмосферу абсолютного спокойствия и комфорта.",
-        "features": [
-          "Mark Levinson Sound",
-          "Ottoman Seats",
-          "Climate Concierge",
-          "Panoramic View",
-          "Advanced Safety"
-        ],
-        "images": [
-          "https://i.pinimg.com/736x/3c/bb/5e/3cbb5eed079e172fb9f0131ca0ee9014.jpg",
-          "https://i.pinimg.com/736x/3c/bb/5e/3cbb5eed079e172fb9f0131ca0ee9014.jpg",
-          "https://i.pinimg.com/736x/3c/bb/5e/3cbb5eed079e172fb9f0131ca0ee9014.jpg"
-        ],
-        "in_stock": false
-      },
-      {
-        "id": 6,
-        "brand": "Bentley",
-        "model": "Flying Spur",
-        "year": 2024,
-        "price": 22000000,
-        "engine": "6.0L W12",
-        "horsepower": 635,
-        "fuel_consumption": 14.5,
-        "acceleration": 3.7,
-        "max_speed": 333,
-        "transmission": "Automatic",
-        "drive": "AWD",
-        "color": "Magnetic",
-        "interior": "Diamond Quilt",
-        "description": "Bentley Flying Spur — это британская роскошь в сочетании с феноменальной производительностью. Ручная работа над каждым автомобилем занимает более 100 часов.",
-        "features": [
-          "Naim Sound System",
-          "Mulliner Driving",
-          "Rotating Display",
-          "Airline Seats",
-          "Bentley Signature"
-        ],
-        "images": [
-          "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg",
-          "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg",
-          "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg"
-        ],
-        "in_stock": true
-      }
-    ],
-    "promotions": [
-      {
-        "id": 1,
-        "title": "Trade-in с выгодой до 500 000 ₽",
-        "description": "Обменяйте свой старый автомобиль на новый с максимальной выгодой. Оценка за 1 час.",
-        "image": "https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0",
-        "valid_until": "2024-12-31"
-      },
-      {
-        "id": 2,
-        "title": "Кредит 0.1% на премиум авто",
-        "description": "Специальное предложение от банков-партнеров. Первоначальный взнос от 10%.",
-        "image": "https://b27eff06-f0b6-4555-8ef7-387a282664dc.selcdn.net/uploads/special/25873/218c5addf4dba7badde6e0c474dd23fb.png",
-        "valid_until": "2024-10-31"
-      },
-      {
-        "id": 3,
-        "title": "Страховка КАСКО в подарок",
-        "description": "При покупке любого автомобиля из наличия - годовая страховка в подарок.",
-        "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
-        "valid_until": "2024-09-30"
-      }
-    ],
-    "blog": [
-      {
-        "id": 1,
-        "title": "Топ-5 новых технологий в премиум авто 2024",
-        "excerpt": "Искусственный интеллект, автопилоты и голографические дисплеи — что уже доступно сегодня?",
-        "content": "Полный текст статьи о новых технологиях...",
-        "author": "Александр Петров",
-        "date": "2024-08-15",
-        "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
-        "read_time": 5
-      },
-      {
-        "id": 2,
-        "title": "Как выбрать идеальный седан бизнес-класса",
-        "excerpt": "Сравнение Mercedes E-Class, BMW 5 Series и Audi A6: что выбрать в 2024?",
-        "content": "Полный текст статьи о выборе седана...",
-        "author": "Елена Соколова",
-        "date": "2024-08-10",
-        "image": "https://sun9-76.userapi.com/impg/XBElFamZZEaj_kCNrNJIVjjojR7fGOkRMMQ-wQ/UlSKSgu-0n0.jpg?size=1280x720&quality=95&sign=e9540a2a67ed2cc7d3e3125088cb0b11&type=video_thumb",
-        "read_time": 8
-      },
-      {
-        "id": 3,
-        "title": "Электромобили премиум-класса: стоит ли переходить?",
-        "excerpt": "Porsche Taycan, Mercedes EQS и BMW i7 в реальных условиях эксплуатации.",
-        "content": "Полный текст статьи об электромобилях...",
-        "author": "Михаил Иванов",
-        "date": "2024-08-05",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR32sQr0FN0cGzIfrDMIWOy896vrdjpK1Zu4g&s",
-        "read_time": 6
-      }
-    ]
-  }
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Mercedes-Benz",
+      "model": "S-Class",
+      "year": 2024,
+      "price_per_hour": 2500,
+      "price_per_day": 20000,
+      "engine": "3.0L V6",
+      "horsepower": 367,
+      "fuel_consumption": 9.2,
+      "transmission": "Automatic",
+      "drive": "4MATIC",
+      "color": "Black",
+      "interior": "Nappa Leather",
+      "description": "Флагманский седан Mercedes-Benz S-Class для особых случаев. Идеальный выбор для деловых встреч и торжественных мероприятий.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Подогрев сидений",
+        "Камера 360°",
+        "Массаж сидений",
+        "Панорамная крыша"
+      ],
+      "images": [
+        "https://i.pinimg.com/736x/1a/ee/37/1aee37a4077c8dd314c73e28c03ad395.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Цветной бульвар",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "luggage": 2
+    },
+    {
+      "id": 2,
+      "brand": "BMW",
+      "model": "M5",
+      "year": 2024,
+      "price_per_hour": 2400,
+      "price_per_day": 19000,
+      "engine": "4.4L V8",
+      "horsepower": 380,
+      "fuel_consumption": 8.8,
+      "transmission": "Automatic",
+      "drive": "xDrive",
+      "color": "Alpine White",
+      "interior": "Merino Leather",
+      "description": "Роскошный седан BMW 7 Series для тех, кто ценит комфорт и динамику. Отлично подойдет для загородных поездок.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Панорамная крыша",
+        "Массаж сидений",
+        "Проекционный дисплей"
+      ],
+      "images": [
+        "https://www.exoticcarhacks.com/wp-content/uploads/2024/04/RkbSaAWg.jpeg"
+      ],
+      "available": true,
+      "location": "Москва, Кутузовский пр.",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "luggage": 3
+    },
+    {
+      "id": 3,
+      "brand": "Audi",
+      "model": "A8",
+      "year": 2024,
+      "price_per_hour": 2200,
+      "price_per_day": 18000,
+      "engine": "3.0L V6",
+      "horsepower": 340,
+      "fuel_consumption": 8.5,
+      "transmission": "Automatic",
+      "drive": "quattro",
+      "color": "Daytona Grey",
+      "interior": "Valcona Leather",
+      "description": "Audi A8 — воплощение прогрессивной роскоши. Идеальный автомобиль для важных встреч и мероприятий.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Подогрев сидений",
+        "Адаптивный круиз",
+        "Камера 360°"
+      ],
+      "images": [
+        "https://i.pinimg.com/1200x/9e/6d/88/9e6d880abf08cd6e304ab407a6fa7283.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Тверская ул.",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "luggage": 2
+    },
+    {
+      "id": 4,
+      "brand": "Porsche",
+      "model": "Panamera",
+      "year": 2024,
+      "price_per_hour": 2800,
+      "price_per_day": 22000,
+      "engine": "4.0L V8",
+      "horsepower": 620,
+      "fuel_consumption": 11.2,
+      "transmission": "Automatic",
+      "drive": "PDK",
+      "color": "GT Silver",
+      "interior": "Leather",
+      "description": "Porsche Panamera Turbo — спортивный характер и роскошь. Для тех, кто хочет получить удовольствие от вождения.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Спорт режим",
+        "Керамические тормоза",
+        "Адаптивная подвеска"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1580274455191-1c62238fa333"
+      ],
+      "available": true,
+      "location": "Москва, Патриаршие пруды",
+      "fuel_type": "Petrol",
+      "seats": 4,
+      "luggage": 1
+    },
+    {
+      "id": 5,
+      "brand": "Lexus",
+      "model": "LS",
+      "year": 2024,
+      "price_per_hour": 2000,
+      "price_per_day": 16000,
+      "engine": "3.5L V6",
+      "horsepower": 416,
+      "fuel_consumption": 9.0,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Sonic White",
+      "interior": "Semi-aniline",
+      "description": "Lexus LS — японское гостеприимство и внимание к деталям. Идеальный выбор для спокойных и комфортных поездок.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Подогрев сидений",
+        "Mark Levinson",
+        "Доводчики дверей"
+      ],
+      "images": [
+        "https://marcar.ru/assets/components/phpthumbof/cache/Lexus-ls-exterior-1.20eb411dd4aa271cba4919e2c313b70d.png"
+      ],
+      "available": true,
+      "location": "Москва, Арбат",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "luggage": 2
+    },
+    {
+      "id": 6,
+      "brand": "Bentley",
+      "model": "Flying Spur",
+      "year": 2024,
+      "price_per_hour": 4500,
+      "price_per_day": 35000,
+      "engine": "6.0L W12",
+      "horsepower": 635,
+      "fuel_consumption": 14.5,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Magnetic",
+      "interior": "Diamond Quilt",
+      "description": "Bentley Flying Spur — британская роскошь. Для особых мероприятий, свадеб и важных встреч высшего уровня.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Подогрев сидений",
+        "Naim Sound",
+        "Откидные столики"
+      ],
+      "images": [
+        "https://i.pinimg.com/1200x/21/d4/c7/21d4c77202de8a717769f68d4ecfbee9.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Кремль",
+      "fuel_type": "Petrol",
+      "seats": 4,
+      "luggage": 2
+    },
+    {
+      "id": 7,
+      "brand": "Range Rover",
+      "model": "Sport",
+      "year": 2024,
+      "price_per_hour": 3000,
+      "price_per_day": 24000,
+      "engine": "3.0L V6",
+      "horsepower": 400,
+      "fuel_consumption": 10.5,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Santorini Black",
+      "interior": "Windsor Leather",
+      "description": "Премиальный внедорожник для любых дорог. Идеален для загородных поездок и путешествий.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Панорамная крыша",
+        "Пневмоподвеска",
+        "Внедорожный пакет"
+      ],
+      "images": [
+        "https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_580,q_75,w_906/n20onzdjgzcnueh01av5.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Ленинградский пр.",
+      "fuel_type": "Diesel",
+      "seats": 5,
+      "luggage": 4
+    },
+    {
+      "id": 8,
+      "brand": "Maserati",
+      "model": "Quattroporte",
+      "year": 2023,
+      "price_per_hour": 3200,
+      "price_per_day": 25000,
+      "engine": "3.8L V8",
+      "horsepower": 580,
+      "fuel_consumption": 12.0,
+      "transmission": "Automatic",
+      "drive": "RWD",
+      "color": "Blu Emozione",
+      "interior": "Pieno Fiore",
+      "description": "Итальянская страсть и роскошь. Уникальный седан с характером суперкара.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Спорт режим",
+        "Bowers & Wilkins",
+        "Карбоновый декор"
+      ],
+      "images": [
+        "https://hips.hearstapps.com/hmg-prod/images/2020-maserati-quattroporte-s-q4-trahan-004-1587075491.jpg?crop=0.506xw:0.849xh;0.421xw,0.140xh&resize=1200:*"
+      ],
+      "available": true,
+      "location": "Москва, Садовое кольцо",
+      "fuel_type": "Petrol",
+      "seats": 4,
+      "luggage": 2
+    },
+    {
+      "id": 9,
+      "brand": "Rolls-Royce",
+      "model": "Ghost",
+      "year": 2024,
+      "price_per_hour": 6000,
+      "price_per_day": 48000,
+      "engine": "6.7L V12",
+      "horsepower": 570,
+      "fuel_consumption": 15.0,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Arctic White",
+      "interior": "Leather",
+      "description": "Абсолютная роскошь и комфорт. Автомобиль для самых важных моментов жизни.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Звездное небо",
+        "Массаж сидений",
+        "Откидные столики",
+        "Холодильник"
+      ],
+      "images": [
+        "https://www.europeanprestige.co.uk/blobs/stock/547/images/1695b8d3-ffbe-4f64-b669-de012126d528/hi4a7681.jpg?width=2000&height=1333"
+      ],
+      "available": false,
+      "location": "Москва, Остоженка",
+      "fuel_type": "Petrol",
+      "seats": 4,
+      "luggage": 2
+    },
+    {
+      "id": 10,
+      "brand": "Lamborghini",
+      "model": "Urus",
+      "year": 2024,
+      "price_per_hour": 5500,
+      "price_per_day": 44000,
+      "engine": "4.0L V8",
+      "horsepower": 650,
+      "fuel_consumption": 13.5,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Giallo Auge",
+      "interior": "Sport Leather",
+      "description": "Самый быстрый SUV в мире. Для тех, кто не хочет выбирать между скоростью и практичностью.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Спорт режим",
+        "Карбон-керамика",
+        "Активный спойлер"
+      ],
+      "images": [
+        "https://s.auto.drom.ru/i24216/c/photos/fullsize/lamborghini/urus/gen473_lamborghini_urus_773129.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Неглинная",
+      "fuel_type": "Petrol",
+      "seats": 4,
+      "luggage": 2
+    },
+    {
+      "id": 11,
+      "brand": "Ferrari",
+      "model": "Roma",
+      "year": 2023,
+      "price_per_hour": 5800,
+      "price_per_day": 46000,
+      "engine": "3.9L V8",
+      "horsepower": 620,
+      "fuel_consumption": 11.8,
+      "transmission": "Automatic",
+      "drive": "RWD",
+      "color": "Rosso Corsa",
+      "interior": "Leather",
+      "description": "Элегантность и мощь в итальянском стиле. Идеальный автомобиль для особого вечера.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Спорт режим",
+        "Карбон",
+        "Активная аэродинамика"
+      ],
+      "images": [
+        "https://www.amalgamcollection.com/cdn/shop/products/DSCF9341WIDEEDIT_2000x850_crop_center.jpg?v=1626887558"
+      ],
+      "available": true,
+      "location": "Москва, Петровка",
+      "fuel_type": "Petrol",
+      "seats": 2,
+      "luggage": 1
+    },
+    {
+      "id": 12,
+      "brand": "Aston Martin",
+      "model": "DB11",
+      "year": 2023,
+      "price_per_hour": 5200,
+      "price_per_day": 41000,
+      "engine": "4.0L V8",
+      "horsepower": 535,
+      "fuel_consumption": 11.2,
+      "transmission": "Automatic",
+      "drive": "RWD",
+      "color": "Q Silver",
+      "interior": "Bridge of Weir",
+      "description": "Британская элегантность и стиль. Автомобиль для настоящих ценителей прекрасного.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Premium Sound",
+        "Кожаный салон",
+        "Алюминий"
+      ],
+      "images": [
+        "https://cdn-ds.com/blogs-media/sites/492/2019/05/31105032/Aston-Martin-DB11-A3_o.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Пречистенка",
+      "fuel_type": "Petrol",
+      "seats": 2,
+      "luggage": 1
+    },
+    {
+      "id": 13,
+      "brand": "Cadillac",
+      "model": "Escalade",
+      "year": 2024,
+      "price_per_hour": 3500,
+      "price_per_day": 28000,
+      "engine": "6.2L V8",
+      "horsepower": 420,
+      "fuel_consumption": 14.0,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Black Raven",
+      "interior": "Premium Leather",
+      "description": "Американская роскошь в большом формате. Вместительный и комфортный SUV для большой компании.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Панорамная крыша",
+        "3 ряда сидений",
+        "Развлекательная система"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT30FE306rZlx4gdKIMWKahI__O1R-24isaCg&s"
+      ],
+      "available": true,
+      "location": "Москва, Новый Арбат",
+      "fuel_type": "Petrol",
+      "seats": 7,
+      "luggage": 5
+    },
+    {
+      "id": 14,
+      "brand": "Jaguar",
+      "model": "F-Pace",
+      "year": 2023,
+      "price_per_hour": 2000,
+      "price_per_day": 16000,
+      "engine": "2.0L Petrol",
+      "horsepower": 250,
+      "fuel_consumption": 8.5,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Santorini Black",
+      "interior": "Windsor Leather",
+      "description": "Стильный британский SUV с отличной динамикой и комфортом.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Панорамная крыша",
+        "Камера 360°",
+        "Адаптивный круиз"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tHsEzWKP4JEnjxWW0sKCQd31RGy0sXgKNA&s"
+      ],
+      "available": true,
+      "location": "Москва, Покровка",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "luggage": 3
+    },
+    {
+      "id": 15,
+      "brand": "Volvo",
+      "model": "XC90",
+      "year": 2024,
+      "price_per_hour": 1800,
+      "price_per_day": 14000,
+      "engine": "2.0L Hybrid",
+      "horsepower": 310,
+      "fuel_consumption": 6.5,
+      "transmission": "Automatic",
+      "drive": "AWD",
+      "color": "Crystal White",
+      "interior": "Nappa Leather",
+      "description": "Скандинавский дизайн и безопасность. Идеальный семейный автомобиль.",
+      "features": [
+        "Кондиционер",
+        "Bluetooth",
+        "Навигатор",
+        "Панорамная крыша",
+        "7 мест",
+        "Bowers & Wilkins"
+      ],
+      "images": [
+        "https://s.auto.drom.ru/i24230/c/photos/fullsize/volvo/xc90/volvo_xc90_880643.jpg"
+      ],
+      "available": true,
+      "location": "Москва, Ленинский пр.",
+      "fuel_type": "Hybrid",
+      "seats": 7,
+      "luggage": 4
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Первый час в подарок",
+      "description": "Для новых пользователей - первый час аренды бесплатно!",
+      "code": "FIRSTHOUR",
+      "image": "https://www.shutterstock.com/image-photo/autumn-photo-shoot-grey-bmw-600nw-2563722971.jpg",
+      "valid_until": "2024-12-31"
+    },
+    {
+      "id": 2,
+      "title": "Скидка 20% на выходные",
+      "description": "Арендуйте авто с пятницы по воскресенье со скидкой 20%",
+      "code": "WEEKEND20",
+      "image": "https://b27eff06-f0b6-4555-8ef7-387a282664dc.selcdn.net/uploads/special/25873/218c5addf4dba7badde6e0c474dd23fb.png",
+      "valid_until": "2024-10-31"
+    },
+    {
+      "id": 3,
+      "title": "5 часов = 4 часа",
+      "description": "При аренде от 5 часов, платите только за 4",
+      "code": "5FOR4",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+      "valid_until": "2024-09-30"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Как выбрать автомобиль для каршеринга",
+      "excerpt": "Советы по выбору авто для разных целей: работа, путешествия, свидания",
+      "content": "Полный текст статьи о выборе авто...",
+      "author": "Александр Петров",
+      "date": "2024-08-15",
+      "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+      "read_time": 5
+    },
+    {
+      "id": 2,
+      "title": "Топ-5 мест для поездок на выходные",
+      "excerpt": "Куда поехать на арендованной машине в Подмосковье",
+      "content": "Полный текст статьи о путешествиях...",
+      "author": "Елена Соколова",
+      "date": "2024-08-10",
+      "image": "https://sun9-76.userapi.com/impg/XBElFamZZEaj_kCNrNJIVjjojR7fGOkRMMQ-wQ/UlSKSgu-0n0.jpg?size=1280x720&quality=95&sign=e9540a2a67ed2cc7d3e3125088cb0b11&type=video_thumb",
+      "read_time": 8
+    },
+    {
+      "id": 3,
+      "title": "Каршеринг vs Такси: что выгоднее?",
+      "excerpt": "Сравниваем стоимость и удобство разных способов передвижения",
+      "content": "Полный текст статьи о выгоде...",
+      "author": "Михаил Иванов",
+      "date": "2024-08-05",
+      "image": "https://www.avtogermes.ru/images/blog/preview/kakoj-avtomobil-kupit-v-2025-godu-luchshie-modeli-i-sovety-po-vyboru.2694c18ec356ba8301d52722e8debf8c_w980.jpg",
+      "read_time": 6
+    }
+  ]
+}

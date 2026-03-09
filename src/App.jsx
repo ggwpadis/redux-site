@@ -1,26 +1,40 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import AdminPage from "./pages/AdminPage";
+import Catalog from "./pages/Catalog";
+import CabinetPage from "./pages/CabinetPage";
 import "./App.css";
 
-function App() {
+function AppContent() {
   const [showAdmin, setShowAdmin] = useState(false);
+  const navigate = useNavigate();
 
   const togglePage = () => {
-    setShowAdmin(!showAdmin);
+    if (showAdmin) {
+      navigate('/');
+      setShowAdmin(false);
+    } else {
+      navigate('/admin');
+      setShowAdmin(true);
+    }
   };
 
   return (
     <>
-      <Header />
+      <Header setShowAdmin={setShowAdmin} showAdmin={showAdmin} />
       
-      {/* Контент с отступом для фиксированного header */}
-      <div style={{ marginTop: '80px' }}> {/* Уменьшил отступ до 80px */}
-        {showAdmin ? <AdminPage /> : <Home />}
+      <div style={{ marginTop: '80px', minHeight: 'calc(100vh - 80px)' }}>
+        <Routes>
+          <Route path="/" element={<Home setShowAdmin={setShowAdmin} />} />
+          <Route path="/admin" element={<AdminPage />} />
+          <Route path="/catalog" element={<Catalog />} /> {/* Новый маршрут */}
+          <Route path="/cabinet" element={<CabinetPage />} />
+        </Routes>
         
-        {/* Кнопка теперь внизу, после контента */}
+        {/* Ваша кнопка переключения
         <div style={{ 
           textAlign: 'center', 
           margin: '40px 0',
@@ -49,11 +63,19 @@ function App() {
               ? 'Вы находитесь в панели управления' 
               : 'Для администраторов: управление автомобилями'}
           </p>
-        </div>
+        </div> */}
       </div>
       
       <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
+    </Router>
   );
 }
 

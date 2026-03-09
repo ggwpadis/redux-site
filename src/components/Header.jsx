@@ -5,11 +5,12 @@ const Header = () => {
   const navLinks = [
     { name: 'Главная', path: '/' },
     { name: 'Каталог', path: '/catalog' },
-    { name: 'Сравнение', path: '/compare' },
     { name: 'Акции', path: '/offers' },
     { name: 'О нас', path: '/about' },
     { name: 'Блог', path: '/blog' },
     { name: 'Контакты', path: '/contacts' },
+    { name: 'Кабинет', path: 'cabinet' }
+    
   ];
 
   

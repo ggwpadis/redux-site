@@ -13,7 +13,7 @@
   /* Hero секция */
   .hero-section {
     height: 90vh;
-    background-image: url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://carlinerental.by/assets/images/cars/223/img_7735.JPG');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -413,7 +413,11 @@
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 600;
+
+
 }
+
+
 
 .promo-btn:hover {
   background: #FFD700;
@@ -672,7 +676,7 @@
 
 .features-list li::before {
   content: '✓';
-  position: absolute;
+
   left: 15px;
   color: #FFD700;
   font-weight: bold;
@@ -852,3 +856,509 @@
       font-size: 28px;
     }
   }
+/* Новая секция: Преимущества */
+.features-section {
+  padding: 60px 0;
+  background: white;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 30px 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
+}
+
+.feature-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Секция: Как это работает */
+.how-it-works-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.step-card {
+  text-align: center;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #0a0a0a;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.step-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.step-card p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Карточки для каршеринга */
+.car-location-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  z-index: 2;
+}
+
+.car-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.car-price-label {
+  color: #999;
+  font-size: 14px;
+}
+
+.car-price-value {
+  color: #FFD700;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Детальный просмотр для каршеринга */
+.car-location-detail {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.car-price-row-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.price-option {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.price-option .price-label {
+  color: #FFD700;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.price-option .price-value {
+  color: #FFD700;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.btn-rent, .btn-schedule {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-rent {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #0a0a0a;
+}
+
+.btn-schedule {
+  background: transparent;
+  border: 2px solid #FFD700;
+  color: #333;
+}
+
+.btn-rent:hover, .btn-schedule:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+}
+
+/* Промокоды */
+.promo-code {
+  display: block;
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Админ кнопка */
+.admin-button-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+  border-top: 1px solid #FFD700;
+}
+
+.admin-button-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.admin-button-container h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.admin-button-container p {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.admin-nav-button {
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border: none;
+  border-radius: 50px;
+  color: #0a0a0a;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+}
+
+.admin-nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+}
+
+/* Адаптивность для новых секций */
+@media (max-width: 1024px) {
+  .features-grid,
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-grid,
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .car-price-row-detail {
+    grid-template-columns: 1fr;
+  }
+  
+  .admin-button-container {
+    padding: 30px 20px;
+  }
+  
+  .admin-button-container h3 {
+    font-size: 20px;
+  }
+  
+  .admin-nav-button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+}
+
+/* Модальное окно для бронирования */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+  color: #333;
+}
+
+.modal-content h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Селектор типа бронирования */
+.booking-type-selector {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.booking-type-btn {
+  flex: 1;
+  padding: 12px;
+  background: #f5f5f5;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.booking-type-btn.active {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border-color: #FFD700;
+  color: #0a0a0a;
+}
+
+/* Форма бронирования */
+.booking-form {
+  margin-bottom: 25px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #666;
+  font-weight: 500;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.booking-form input:focus {
+  outline: none;
+  border-color: #FFD700;
+}
+
+.booking-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFD700;
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.booking-confirm-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border: none;
+  border-radius: 10px;
+  color: #0a0a0a;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.booking-confirm-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+}
+
+/* Успешное бронирование */
+.booking-success {
+  text-align: center;
+  padding: 20px;
+}
+
+.success-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+  animation: scaleIn 0.5s ease;
+}
+
+.booking-success h3 {
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.booking-success p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Адаптивность для модального окна */
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 30px 20px;
+  }
+  
+  .booking-type-selector {
+    flex-direction: column;
+  }
+  
+  .booking-price {
+    font-size: 20px;
+  }
+  
+  .booking-confirm-btn {
+    font-size: 16px;
+  }
+}
+
+.view-all-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.view-all-btn {
+  display: inline-block;
+  padding: 15px 40px;
+  background: transparent;
+  border: 2px solid #FFD700;
+  border-radius: 50px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.view-all-btn:hover {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #0a0a0a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+  border-color: transparent;
+}
